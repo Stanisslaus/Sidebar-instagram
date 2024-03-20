@@ -9,6 +9,24 @@ body {
   font-family: "Segoe UI";
 }
 
+.instagram-logo {
+  text-align: left;
+  margin-top: 0pt;
+}
+
+.instagram-logo img {
+  width: 200px;
+  height: 59px;
+  border-radius: 0%;
+  margin-bottom: 0%;
+}
+
+.instagram-logo h2 {
+  color: #3f729b;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -76,14 +94,14 @@ body {
 
 .sidebar button i {
   position: relative;
-  font-size: 28px;
-  transition: 02s;
+  font-size: 30px;
+  transition: 01s;
 }
 
 .sidebar button img {
   width: 30px;
   height: 30px;
-  transition: 0.2s;
+  transition: 0.1s;
   border-radius: 50px;
 }
 
@@ -91,30 +109,30 @@ body {
   display: grid;
   place-items: center;
   height: 20px;
-  padding: 0 4px;
-  border-radius: 10px;
+  padding: 0 3px;
+  border-radius: 80px;
   position: absolute;
-  top: -5px;
-  right: -10px;
-  border: 1px solid #fff;
+  top: -6px;
+  right: -18px;
+  border: 0px solid #fff;
   background: #ff2f40;
   color: #f9f9f9;
-  font-size: 12px;
+  font-size: 13px;
   font-family: "Segoe UI";
 }
 
 .sidebar button i > em {
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   background: #ff2f40;
   position: absolute;
   border-radius: 10px;
-  top: 2px;
-  right: -1px;
-  border: 1px solid #fff;
+  top: -1px;
+  right: -2px;
+  border: 2px solid #fff;
   color: #f9f9f9;
-  font-size: 12px;
+  font-size: 10px;
   font-family: "Segoe UI";
 }
 
@@ -131,6 +149,10 @@ body {
 
 .sidebar > nav button:last-child {
   margin-top: auto;
+}
+
+.user {
+  width: 80%;
 }
 
 @media (width < 500px) {
